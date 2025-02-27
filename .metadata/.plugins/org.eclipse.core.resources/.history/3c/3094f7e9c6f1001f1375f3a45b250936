@@ -1,0 +1,12 @@
+package testCases;
+
+import pageObjects.BasePage;
+
+public class TC_001_Account_Registration_Test extends BasePage{
+	public TC_001_Account_Registration_Test()
+	{
+		super(driver);
+	}
+	
+	
+}

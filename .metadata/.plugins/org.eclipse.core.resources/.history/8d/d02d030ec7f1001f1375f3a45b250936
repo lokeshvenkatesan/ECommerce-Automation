@@ -1,0 +1,9 @@
+package testCases;
+
+import pageObjects.BasePage;
+
+public class TC_001_Account_Registration_Test extends BasePage{
+	
+	
+	
+}

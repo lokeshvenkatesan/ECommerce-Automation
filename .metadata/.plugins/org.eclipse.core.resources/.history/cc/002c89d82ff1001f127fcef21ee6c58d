@@ -1,0 +1,16 @@
+package testRead;
+
+import java.io.File;
+
+import org.apache.poi.ss.usermodel.Workbook;
+
+public class testTableWrite {
+
+	public static void main(String[] args) {
+		File file = new File("C:\\Users\\Admin\\TestSheet\\Book1.xlsx");
+		
+		Workbook workbook = new XSSFWorkbook();
+		
+				workbook.createSheet("Sheet1");
+	}
+}

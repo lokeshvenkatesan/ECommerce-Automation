@@ -1,0 +1,24 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import pageObjects.AccountRegistrationPage;
+import pageObjects.HomePage;
+import testBase.BaseClass;
+
+public class TC_001_Account_Registration_Test extends BaseClass {
+
+	
+	@Test
+	public void verify_Account_registration() {
+		HomePage hp = new HomePage(driver);
+		hp.clickMyAccount();
+		hp.clickRegister();
+
+		AccountRegistrationPage ar = new AccountRegistrationPage(driver);
+		ar.setFirstName("Loki");
+		ar.setPassword("Lokesh@123");
+	}
+
+}

@@ -1,0 +1,21 @@
+package day47;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+
+public class LaTest {
+
+	WebDriver driver;
+	
+	@BeforeClass
+	void setup() {
+		
+		driver = new ChromeDriver();
+		driver.get("https://demo.opencart.com/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+	}
+}
