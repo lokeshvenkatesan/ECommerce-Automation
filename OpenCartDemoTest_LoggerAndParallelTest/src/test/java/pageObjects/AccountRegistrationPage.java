@@ -21,25 +21,25 @@ WebElement txtLasttname;
 @FindBy(xpath="//input[@id='input-email']") 
 WebElement txtEmail;
 
-@FindBy(xpath="//input[@id='input-telephone']") 
-WebElement txtTelephone;
+//@FindBy(xpath="//input[@id='input-telephone']") 
+//WebElement txtTelephone;
 
 @FindBy(xpath="//input[@id='input-password']") 
 WebElement txtPassword;
 
-@FindBy(xpath="//input[@id='input-confirm']") 
-WebElement txtConfirmPassword;
+//@FindBy(xpath="//input[@id='input-confirm']") 
+//WebElement txtConfirmPassword;
 
 @FindBy(xpath="//input[@name='agree']") 
 WebElement chkdPolicy;
 
-@FindBy(xpath="//input[@value='Continue']") 
+@FindBy(xpath="//button[@type='submit']") 
 WebElement btnContinue;
 
 @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 WebElement msgConfirmation;
 
-
+// Actions
 public void setFirstName(String fname) {
 	txtFirstname.sendKeys(fname);
 
@@ -55,22 +55,26 @@ public void setEmail(String email) {
 
 }
 
-public void setTelephone(String tel) {
-	txtTelephone.sendKeys(tel);
-
-}
+/*
+ * public void setTelephone(String tel) { txtTelephone.sendKeys(tel);
+ * 
+ * }
+ */
 
 public void setPassword(String pwd) {
 	txtPassword.sendKeys(pwd);
 
 }
 
-public void setConfirmPassword(String pwd) {
-	txtConfirmPassword.sendKeys(pwd);
+/*
+ * public void setConfirmPassword(String pwd) {
+ * txtConfirmPassword.sendKeys(pwd);
+ * 
+ * }
+ */
 
-}
-
-public void setPrivacyPolicy() {
+public void setPrivacyPolicy() throws InterruptedException {
+	Thread.sleep(2000);
 	chkdPolicy.click();
 
 }
