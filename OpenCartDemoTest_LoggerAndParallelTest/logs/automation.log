@@ -22,3 +22,61 @@ Session ID: 16eb2a51f6df0d585cfc6a7127789466
 2025-02-28 00:07:30 INFO  TC_001_AccountRegistrationTest:42 - Validating expected message..
 2025-02-28 00:07:43 INFO  TC_001_AccountRegistrationTest:47 - Test passed
 2025-02-28 00:07:43 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-28 00:27:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1254646094\testng-customsuite.xml
+
+2025-02-28 00:27:23 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@61c9c3fd: 20 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@4e858e0a: 46 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@3f07b12c: 8 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@13f17eb4: 8 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@11981797: 7 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@55342f40: 5 ms
+2025-02-28 00:27:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@a4ca3f6: 1 ms
+2025-02-28 00:28:02 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Admin\eclipse-workspace\DemoWorkplace\SeleniumE2E\OpenCartDemoTest_LoggerAndParallelTest\master.xml
+
+2025-02-28 00:28:14 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2025-02-28 00:28:14 INFO  TC_001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2025-02-28 00:28:22 INFO  TC_001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2025-02-28 00:28:22 INFO  TC_001_AccountRegistrationTest:28 - Providing customer details...
+2025-02-28 00:28:25 ERROR TC_001_AccountRegistrationTest:51 - Test failed: element click intercepted: Element is not clickable at point (830, 725)
+  (Session info: chrome=133.0.6943.127)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74a96bf353996dd6d7b5e1710b32c552, clickElement {id=f.8490FEFE3760F5E0C2F1CFBB973AF7B9.d.E2D18AC95ED44DEF5C42DDD421E76CCB.e.66}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51343/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (74a96bf353996dd6d7b5e1710b32c552)] -> xpath: //input[@name='agree']]
+Session ID: 74a96bf353996dd6d7b5e1710b32c552
+2025-02-28 00:28:25 INFO  TC_001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****

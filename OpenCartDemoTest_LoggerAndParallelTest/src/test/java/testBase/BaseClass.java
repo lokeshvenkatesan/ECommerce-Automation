@@ -1,6 +1,9 @@
 package testBase;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;//log4j
@@ -17,13 +20,17 @@ public class BaseClass {
 
 	public WebDriver driver;
 	public Logger logger;
+	public Properties p;
 
 	@Parameters({ "browser", "os" })
 	@BeforeClass
-	public void setup(String br, String os)
+	public void setup(String br, String os) throws IOException
 
 	{
-
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
+		p = new Properties();
+		p.load(file);
+				
 		logger = LogManager.getLogger(this.getClass());// Log4j
 
 		switch (br.toLowerCase()) {
@@ -44,7 +51,7 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-		driver.get("https://demo.opencart.com/");
+		driver.get(p.getProperty("appURL"));
 		driver.manage().window().maximize();
 	}
 
